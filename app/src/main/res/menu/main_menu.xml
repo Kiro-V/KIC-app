@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"></item>
+        <item
+            android:id="@+id/nav_res"
+            android:title="Register for vaccine"></item>
+        <item
+            android:id="@+id/nav_medcon"
+            android:title="Medical conditions"></item>
+        <item
+            android:id="@+id/nav_stat"
+            android:title="Status: "></item>
+        <item
+            android:id="@+id/nav_loc"
+            android:title="Vaccine locations"></item>
+        <item
+            android:id="@+id/nav_fol_up"
+            android:title="Follow-up after injections"></item>
+    </group>
+</menu>
